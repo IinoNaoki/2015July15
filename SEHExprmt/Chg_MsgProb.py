@@ -32,11 +32,19 @@ discount = 0.9
 
 TEST_SET = ['MDP', 'CAS', 'GREEDY', 'RANDOM', 'THRESHOLDRANDOM']
 TEST_RANGE = [0,1,2,3,4,5,6,7,8]
+TEST_RANGE = [0,1,2,3]
+
+lis = [[0.0, 0.0001, 0.0003, 0.0009, 0.0025, 1.0],
+       [0.0, 0.0029, 0.0092, 0.0222, 0.0515, 1.0],
+       [0.0, 0.2007, 0.3997, 0.6046, 0.8006, 1.0],
+       [0.0, 0.9966, 0.9999, 1.0000, 1.0000, 1.0]
+       ]
 
 def _prob_gen(_div):
-    lis1 = [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
-    lis2 = [i+1 for i in reversed(TEST_RANGE)]
-    return [j/lis2[_div] for j in lis1]
+#     lis1 = [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+#     lis2 = [i+1 for i in reversed(TEST_RANGE)]
+#     return [j/lis2[_div] for j in lis1]
+    return lis[_div]
 
 for j,t in enumerate(TEST_SET):        
     # to store results

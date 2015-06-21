@@ -41,3 +41,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+rawresults/ComprRndThr/exp_value_lis__GREEDY
+rawresults/ComprRndThr/exp_value_lis__RANDOM
+rawresults/ComprRndThr/steady_snd_rate_lis__GREEDY
+/rawresults

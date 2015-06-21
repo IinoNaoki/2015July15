@@ -32,6 +32,8 @@ discount = 0.9
 
 TEST_SET = ['MDP', 'CAS', 'GREEDY', 'RANDOM', 'THRESHOLDRANDOM']
 TEST_RANGE = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+TEST_RANGE = [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+print "changed TEST_RANGE. Remember to reverse it."
 
 def _c_price_gen(_start):
     print "changed from 2.0 to 1.0 here. Remember to reverse it."
