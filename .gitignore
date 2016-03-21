@@ -45,3 +45,13 @@ rawresults/ComprRndThr/exp_value_lis__GREEDY
 rawresults/ComprRndThr/exp_value_lis__RANDOM
 rawresults/ComprRndThr/steady_snd_rate_lis__GREEDY
 /rawresults
+
+util.pyc
+
+*.pyc
+
+*.pyc
+
+experiment.pyc
+
+experiment.pyc
